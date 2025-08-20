@@ -3,7 +3,7 @@ describe('Example Test', () => {
     cy.visit('https://www.google.com');
     cy.title().should('include', 'Google');
   });
-  it('Dummy test to check Jenkins trigger', () => {
+  it('Akash Dummy test to check Jenkins trigger', () => {
   expect(true).to.equal(true);
 });
 });
